@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mixed Selectors</title>
+  <style>
+    /* *{margin: 0;} */
+    p{color:chocolate}
+    span{font-style: italic; font-size: large;}
+    #fifth,li{font-size:25px}
+    .don,li{background-color: chartreuse;}
+    .song,.den{font-weight: 800;}
+    input [type="password"{
+      font-size: large;color:blue
+    }
+    
+  </style>
+</head>
+<body>
+  <h2>Explore mixed selectors</h2>
+  <p class="don den">My first line CSS</p>
+  <p class="song">My second line CSS</p>
+  <p>My third  <span>line CSS</span></p>
+  <p class="song" id="fifth">My fourth line CSS</p>
+  <p>My fifth line CSS</p>
+  <p class="don den">My sixth line CSS</p>
+  <p>My seventh line CSS</p>
+  <ol>
+    <li>alo</li>
+    <li class="song">potol</li>
+    <li class="don">mula</li>
+    <li class="den">badam</li>
+  </ol>
+  <form action="">
+    <input type="text" name="id" id="id">
+    <input type="password" name="pass" id="pass">
+  </form>
+</body>
+</html>

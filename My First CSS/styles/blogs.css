@@ -1,0 +1,20 @@
+h3{
+  font-size: 30px;
+  text-decoration: underline;
+}
+.blog{
+  margin:40px;
+  border:20px solid red;
+  box-shadow: 15px 10px 10px violet ;
+}
+
+.second{
+  /* display: none; */
+  /* visibility: hidden; */
+}
+ .header{
+  height: 300px; 
+  background-color: chartreuse;
+  background-image: url('Rupchada.jpg');
+  background-size: cover;
+ }
